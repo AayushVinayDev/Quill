@@ -2,10 +2,11 @@ import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import { Icons } from "./icons";
-import { MainNav } from "./main-nav";
-import { MobileNav } from "./mobile-nav";
+
 import { ModeToggle } from "./mode-toggle";
+import { MainNav } from "./main-nav";
+import { Icons } from "./icons";
+import { MobileNav } from "./mobile-nav";
 
 export function SiteHeader() {
   return (
